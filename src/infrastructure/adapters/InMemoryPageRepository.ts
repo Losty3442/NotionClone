@@ -1,6 +1,5 @@
 import { IPageRepository } from '../../domain/repositories/IPageRepository';
 import { Page } from '../../domain/entities/types';
-import { v4 as uuidv4 } from 'uuid'; // Fallback if no supabase
 
 export class InMemoryPageRepository implements IPageRepository {
   private pages: Page[] = [];
