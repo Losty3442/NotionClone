@@ -1,0 +1,7 @@
+1. **Límite de longitud:** Ningún archivo debe superar las 150 líneas de código. Refactorizar si se acerca al límite.
+2.  **Encapsulamiento:** Desacoplar la lógica de UI en componentes pequeños, puros y reutilizables.
+3.  **Arquitectura Hexagonal:** Mantener una separación estricta de capas:
+    -   **Domain:** Entidades, tipos y contratos (interfaces).
+    -   **Application:** Casos de uso e interacciones principales.
+    -   **Infrastructure:** Adaptadores de base de datos (ej. Supabase/PostgreSQL), servicios externos y la capa de presentación (Next.js App Router).
+4.  **Clean Code:** Nomenclatura descriptiva, tipado estricto (TypeScript) y manejo de errores centralizado.
